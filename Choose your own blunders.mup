@@ -1,0 +1,137 @@
+{
+  "title": "Choose your own blunders",
+  "id": 1,
+  "formatVersion": 2,
+  "ideas": {
+    "-1": {
+      "title": "Busy city sidewalk, Step on a piece of gum",
+      "id": 24,
+      "ideas": {
+        "1": {
+          "title": "Decision",
+          "id": 7,
+          "ideas": {
+            "1": {
+              "title": "Enter a convenience store, to look for a picking implement",
+              "id": 10,
+              "ideas": {
+                "1": {
+                  "title": "Store",
+                  "id": 14,
+                  "attr": {
+                    "style": {
+                      "background": "#ccffff"
+                    }
+                  }
+                }
+              }
+            },
+            "2": {
+              "title": "Keep walking and ignore it",
+              "id": 11,
+              "ideas": {
+                "1": {
+                  "title": "Further down the sidewalk",
+                  "id": 15,
+                  "attr": {
+                    "style": {
+                      "background": "#ccffff"
+                    }
+                  },
+                  "ideas": {}
+                },
+                "2": {
+                  "title": "Effect: Gum on shoe",
+                  "id": 20,
+                  "attr": {
+                    "style": {
+                      "background": "#99cc00"
+                    }
+                  }
+                },
+                "3": {
+                  "title": "Attribute: The Tao",
+                  "id": 22,
+                  "attr": {
+                    "style": {
+                      "background": "#ffff99"
+                    }
+                  }
+                }
+              }
+            },
+            "3": {
+              "title": "Sit down on a bench and use the toothpick from lunch",
+              "id": 12,
+              "ideas": {
+                "1": {
+                  "title": "Sitting on the bench",
+                  "id": 16,
+                  "attr": {
+                    "style": {
+                      "background": "#ccffff"
+                    }
+                  },
+                  "ideas": {}
+                },
+                "2": {
+                  "title": "Effect: Splinter",
+                  "id": 19,
+                  "attr": {
+                    "style": {
+                      "background": "#99cc00"
+                    }
+                  }
+                }
+              }
+            },
+            "4": {
+              "title": "Scrape the shoe on the side of the bench",
+              "id": 13,
+              "ideas": {
+                "1": {
+                  "title": "Standing near the bench",
+                  "id": 17,
+                  "attr": {
+                    "style": {
+                      "background": "#ccffff"
+                    }
+                  },
+                  "ideas": {}
+                },
+                "2": {
+                  "title": "Attribute: Chaotic",
+                  "id": 21,
+                  "attr": {
+                    "style": {
+                      "background": "#ffff99"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "attr": {
+            "style": {
+              "background": "#ffcc99"
+            }
+          }
+        }
+      },
+      "attr": {
+        "style": {
+          "background": "#ccffff"
+        }
+      }
+    }
+  },
+  "links": [],
+  "attr": {
+    "storyboards": [
+      "Storyboard 1"
+    ],
+    "style": {
+      "background": "#800080"
+    }
+  }
+}
