@@ -5,53 +5,74 @@
 *author Curtis and Francis
 *scene_list
   startup
-  animal
+  wakeup
   variables
   gosub
   ending
   death
 
-*create leadership 50
-*create strength 50
+*comment ----------------------------- STATS DEFINITIONS --------------------------
 
-This is a very serious game, written buy a couple dudez.
+*create SMOKER 10
+*create DRINKER 20
+*create FEDUP 30
 
-Don't worry about stealing our intellectual property until we start monetizing it.
+*create nemesis_trolls false
+*create nemesis_aussie false
+*create nemesis_anchor false
+*create nemesis_hotdog false
+*create nemesis_greeny false
+
+*create stat_gullible_paranoid       50
+*create stat_oafish_timid            50
+*create stat_tasteless_narcissistic  50
+*create stat_curmudgeonly_douchey 50
+
+*comment ------------------------- ACHIEVEMENTS DEFINITIONS --------------------------
+
+*achievement imadreamer visible 10 You May Say I'm A Dreamer
+  Needs a before-description
+  Needs an after-description
+
+*achievement iwonder visible 10 I Wonder If You Can
+  Needs a before-description
+  Needs an after-description
+
+
+All resemblances to real or fictional characters are pure coincidence or bitter parody.
 
 *page_break
 
-Your majesty, your people are starving in the streets, and threaten revolution.
-Our enemies to the west are weak, but they threaten soon to invade.  What will you do?
+Wake up late:
+
+Are you a SMOKER???
 
 *choice
-  #Make pre-emptive war on the western lands.
-    If you can seize their territory, your kingdom will flourish.  But your army's
-    morale is low and the kingdom's armory is empty.  How will you win the war?
-    *choice
-      #Drive the peasants like slaves; if we work hard enough, we'll win.
-        Unfortunately, morale doesn't work like that.  Your army soon turns against you
-        and the kingdom falls to the western barbarians.
-        *finish
-      #Appoint charismatic knights and give them land, peasants, and resources.
-        Your majesty's people are eminently resourceful.  Your knights win the day,
-        but take care: they may soon demand a convention of parliament.
-        *finish
-      #Steal food and weapons from the enemy in the dead of night.
-        A cunning plan.  Soon your army is a match for the westerners; they choose
-        not to invade for now, but how long can your majesty postpone the inevitable?
-        *finish
-  #Beat swords to plowshares and trade food to the westerners for protection.
-    The westerners have you at the point of a sword.  They demand unfair terms
-    from you.
-    *choice
-      #Accept the terms for now.
-        Eventually, the barbarian westerners conquer you anyway, destroying their
-        bread basket, and the entire region starves.
-        *finish
-      #Threaten to salt our fields if they don't offer better terms.
-        They blink.  Your majesty gets a fair price for wheat.
-        *finish
-  #Abdicate the throne. I have clearly mismanaged this kingdom!
-    The kingdom descends into chaos, but you manage to escape with your own hide.
-    Perhaps in time you can return to restore order to this fair land.
+  #Yes
+    *set SMOKER +10
+    *goto drinkchoice
+  #Maybe
+    *set SMOKER +20
+    *goto drinkchoice
+
+*label drinkchoice
+Are you a DRINKER???
+
+*choice
+  #Yes
+    *set DRINKER +20
+    *goto fedupchoice
+  #Kinda
+    *set DRINKER +30
+    *goto fedupchoice
+
+*label fedupchoice
+Are you FED UP WITH IT ALL???
+
+*choice
+  #Yes
+    *set FEDUP +15
+    *finish
+  #Yeah
+    *set FEDUP +20
     *finish
