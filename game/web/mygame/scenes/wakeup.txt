@@ -1,0 +1,118 @@
+*comment Copyright 2015 Curtis and Francis
+*comment 
+
+You wake up in a mirthy putrid bath of your own making.
+Your uncomfortable spring mattress has soaked to the floorboards with remnants 
+of all those poor decisions you made earlier in life.
+An unshakeable headache takes your mind off all the coughing and hacking,
+phlegm spilling onto your t-shirt as your lungs wildly expel their contents
+in a collective struggle for preservation.
+
+You reach out to your bedside table, hit the SNOOZE button,
+and grasp the half-drunk, flat, leftover can of beer from the morning before.
+The television is still on, its glow more comforting to you now than at any point
+during your childhood.
+
+What channel is on?
+*choice
+  #Children’s Show
+    *set nemesis_trolls true
+    *goto children
+  #Foreign Game-Show
+    *set nemesis_aussie true
+    *goto gameshow
+  #The News
+    *set nemesis_anchor true
+    *goto thenews
+  #Cooking Show
+    *set nemesis_hotdog true
+    *goto cooking
+  #Nature documentary
+    *set nemesis_greeny true
+    *set stat_curmudgeonly_douchey %+20
+    *goto naturedoc
+
+
+*label children
+You’re an absolutely normal, run-of-the-mill, average adult American who spends all
+night watching cartoon programming marketed to small children, and all day updating a
+blog enthusiastically discussing your level of commitment to 
+*finish
+
+
+*label gameshow
+Although your friends are reluctant to tell you to your face, throughout your entire
+life most people have regarded you as a racist. 
+It doesn’t help that in all your spare time, you are glued to cruel foreign game-shows
+where the contestants are urged to subject themselves to humiliating circumstances,
+perform sadistic tasks to each other, and in at least two cases by your count, die. 
+
+Your ears perk to the audience’s raucous chants, “REKT MATE! REKT MATE!” a spectacle
+whose apex you surely have missed, simply because you were too lazy to open your eyes. 
+
+You could open your eyes now.
+
+*choice
+  #Open
+    Congratulations, you opened your eyes.
+    
+    Unfortunately they are too crusty and chapped to provide any real visual information,
+    but your powerful imagination conjures a breathtaking monochrome silhouette of Matty Plunda,
+    the cherub cheeked host of ‘Rekt Mate: Frowns Down Unda,’ free of charge.
+    *achieve imadreamer
+    *goto gameshow2
+  #Just a few more minutes
+    Congratulations, you’re still lazy. 
+    
+    Unfortunately, your philosophy on life also dictates you may only open your eyes a
+    finite number of times, so you existentially brood over what may be the last time
+    you can ever see anything.
+    
+    You have wasted what little time you could have spent gazing upon a breathtaking close-up
+    shot of Matty Plunda, the cherub cheeked host of ‘Rekt Mate: Frowns Down Unda,” and
+    your cable bill just went up last month.
+    *achieve iwonder
+    *goto gameshow2
+
+
+*label gameshow2
+“Ay!” The crowd quiets down, “Welcam t’Rekt Mate! Round’m up ‘n can ya ‘ear ‘em?”
+Matty Plunda’s accent is as garbled as your reception, “Y’ los’ yer bloody mind? Bahrt,
+ain’t’n ev’n any f’rthah, roun’th clock, we got ‘em, ‘ere right on Brisbane’s neetwahrk!” 
+He might as well be speaking another language, because you have never understood more than
+two or three words, and he just keeps going and going. 
+
+Matty laughs and turns to the contestant behind him, who is tied to some kind of reclining easy chair.
+The contestant appears ethnically divergent, and is holding a beer can, transfixed on the
+small television set in front of him.
+
+You feel a surge of anger.
+*choice 
+  #Mutter something racist
+    *set stat_curmudgeonly_douchey %+10
+    “Blimey,” you sputter malevolently, “these days they even let the chromey blokes on
+    int’national telly,” your grip tightens on your beer can and your gaze on the TV intensifies.
+    *finish
+  #Hold your tongue
+     *set stat_curmudgeonly_douchey %-10
+     You hold your tongue.
+     *finish
+       
+*label thenews
+A news scene.
+*finish
+
+*label cooking
+A cooking scene.
+*finish
+
+*label naturedoc
+Your dreams take you further than your morals.
+You blow a snot-rocket onto the gazelle-skin rug beside your bed, without opening your eyes.
+The TV blares some intolerable whining animal, a noise like a thousand cigarette-ravaged
+cave-teenagers from Mississippi vying vocally but uncreatively for someone to give them a “car”.
+
+Something something crows etc foreshadowing.
+
+As you step onto the rug you feel a crusty exfoliant scrape your soles, a ghost of snot-rockets past.
+*finish

@@ -1,0 +1,90 @@
+f: put unexplained plot points
+f: and then try to explain them with other pages
+c: then you can go in later and add spots for variables to modify
+c: yeah
+c: so would it be helpful to like, if you were writing out an ending
+c: replace proper nouns with somehting like '$name' or something
+c: i guess i will just start writing at some point and figure it out
+f: yeah
+f: i think we can do that stuff later if we need to
+f: probably the hardest part is getting enough pages to make it fun
+f: the rest is just procedural
+c: haha i slept in my car for 4 hours after my math class
+c is now Online.
+c: ive got to type it out but i spent all math class writing an opening scene where you wake up and fall out of bed, and theres three different ways you land on the floor - two of which injure you, one of which your finger becomes lodged in your nose for several chapters
+f: good one
+f: feel free to make my stuff funnier
+f: i think i think my stuff is funnier than most people think
+c: the tv is on and one of four channels has been playing all night - a foreign gameshow channel, a children's network, sports channel, or a history documentary  channel
+c: i only read the one you linked did you write other stuff?
+f: i added some new stuff to it
+f: it's just notes i wanted to get down
+c: i really like the loose verbage
+c: spitooning definitely illustrates what could happen to a viscous fluid
+f: i could change it from "spittoons of blood erupt" to "blood spittoons"
+f: i wasn't sure if that would be too loose
+f: it would probably flow better
+c: the children's show network there's a crowd chanting "BO-KAY-KAY! BO-KAY-KAY!" and an entourage of purple six breasted women are dancing around a strange octopus mascot with a giant bison head
+c: the foreign gameshow channel there is a crowd chanting "REKT-MATE! REKT-MATE!" and a small man with large blushing cheeks is feverishly mopping his brow and looks to be on the verge of tears
+c: i haven't written out the other two
+c: achievement - Channers actively maintain a wiki about you
+f: do it
+f: try to type all the notes into google docs for now and once we have enough to put some structure to it we can start transitioning over to git
+c: okay sweet
+c: but yeah if we make it a dual narrative the television channels allow the player to describe the arch nemesis the player will control
+c: JUST PLAYIN SHARK GAME NOW THO
+f: ok i changed the beginning of the spittoons paragraph
+f: Blood spittoons from your feet, so forcefully that your body does a quarter-pinwheel in place,
+f: Blood spittoons from your feet, so forcefully that you quarter-pinwheel in place, your face thunching to stability on the exposed corner of the kitchen median cupboards.
+c: what's another good channel an idiot would watch that can have a chant associated with it
+c: it's all about the chant every channel has to have a crowd of people chanting something
+c: i guess sports it has to be sports
+f: yess
+f: mma boyee
+f: muay thai nemesis?
+c: oh each channel would have a couple of descriptive choices
+f: sick
+c: so yeah you could end up with a deer moose platypus mascot for the children's gameshow
+c: or a muay thai kickboxer or a basketball guy or a football guy
+c: i need to figure out exactly how complex the television needs to make this haha
+f: what are some different attributes
+c: Gullible
+f: oh good
+c: Oafish
+c: Clumsy
+c: Ignorant
+f: Tasteless
+c: Temper ranges from Frothing to Slack-Jawed
+f: what's an adjective that describes a poor engineer
+c: what is the context
+f: well i wanna make it so you can design this machine
+f: and based on the attributes it comes out in different forms at different times
+f: so if you're "tasteless" you cover it in crow feathers
+f: or if you're a bad engineer it sucks in and masticates any crows that try to get their rewards
+f: the machine trains crows to do tasks in exchange for nuts
+f: something like "butterrfingers"
+c: read my foreign gameshow
+c: oh so like a word for an achievemnt thing or like in the narrative itself
+c: it could be the oafish stat
+f: yeah that makes sense
+f: clumsy seems too cloase to oafish
+f: close
+c: i think you're right
+f: maybe have those on a spectrum
+c: oafish encompasses clumsiness, and like an unwillingness to work around that
+f: and also one from "gullible" to "ignorant"
+c: like if you're really oafish, you're super clumsy and maybe good natured, but you're going to fuck things up because you keep trying way too hard and overexerting yourself to a point where everything becomes ruined
+f: ok then the opposite of that would be to be paralyzed with inaction
+f: at all times
+c: if your temper rating is too high you could have a little reminder somewhere like "You are in a public place, literally having a tantrum!"
+c: if you get your tantrum rating to 9, the next chapter is automatically just "You are having a tantrum!!!!"
+c: temper rating
+f: lol
+f: it's like you reach power level 9000 and go super saiyan
+f: i'm going to a thing tomorrow where it's just 15 poeple in a room together, writing silently for 2 hours
+f: no talking or facebook etc allowed
+c: the majority of achievements should be just lines from john lennon's Imagine
+c: i wonder if that's funny i might just be high
+c: i like how google docs thinks rekt and unda are real words, but plunda is not
+c: i think somewhere in the beginning there should be a one off character who tells you something mystical like "find the eight golden dang-dangs scattered throughout the lands..." and then he disappears but theres no dang-dangs anywhere
+c: or you find all eight at once at the end
